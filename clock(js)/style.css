@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#clock {
+	width: 700px;
+	height: 700px;
+	border: 1px solid brown;
+	margin: 50px auto;
+	position: relative;
+}
+
+#sec, #min {
+	display: block;
+	position: absolute;
+	left: 200px;
+	top: 0;
+
+	/*transition: all ease 500ms;*/
+}
